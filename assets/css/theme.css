@@ -4740,7 +4740,7 @@ section.parallax .row .background-image-holder {
   font-family: Open Sans, 'Roboto', 'Helvetica', Sans-Serif;
 }
 .bar .logo {
-  max-height: 23px;
+  /*max-height: 23px;*/
   max-width: none;
 }
 .menu-horizontal > li > a,
@@ -4783,7 +4783,7 @@ section.parallax .row .background-image-holder {
 .bar-1 .menu-horizontal > li > a {
   font-size: 0.857142857142857em;
   line-height: 2.166666666666667em;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 600;
   letter-spacing: .5px;
 }

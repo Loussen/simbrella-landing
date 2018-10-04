@@ -45,6 +45,14 @@
             border: 1px solid red;
             border-radius: 10px;
         }
+
+        div.success_mail {
+            margin: 0;
+            padding: 10px;
+            border: 2px solid #d6e9c6;
+            background-color: #dff0d8;
+            color: #468847;
+        }
         input[type].btn--primary,
         .pos-fixed.bar--transparent.bg--primary,
         .ebor-cart-count {
@@ -204,7 +212,6 @@ Click the help icon above to learn more.
             <div class="row">
                 <div class="col-md-1 col-sm-2 hidden-xs">
                     <div class="bar__module">
-
                         <a href="http://www.simbrella.com/" class="logo-holder" target="_blank">
                             <img class="logo logo-dark" alt="logo" src="assets/img/simbrella_logo.png" />
                             <img class="logo logo-light" alt="logo" src="assets/img/simbrella_logo.png" />

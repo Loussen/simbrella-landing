@@ -48,7 +48,7 @@ Link
 Best regards,<br />
 Simbrella team<br /><br />
 --
-This e-mail was sent after filling in ARPU increase case study request form on simbrella.com';
+This e-mail was sent after filling in ARPU increase case study request form on <a target="_blank" href="http://www.simbrella.com/">simbrella.com</a>';
 
             $mail -> MsgHTML($message);
 
@@ -61,7 +61,7 @@ This e-mail was sent after filling in ARPU increase case study request form on s
             $mail_own -> Port = 465;
             $mail_own -> Username = 'simbrellacampaign@gmail.com';
             $mail_own -> Password = '159357sn!)(';
-            $mail_own -> AddReplyTo("simbrellacampaign@gmail.com","Simbrella");
+            $mail_own -> AddReplyTo($email,"Simbrella");
             $mail_own -> SetFrom($mail -> Username, 'Simbrella');
             $mail_own -> AddAddress("simbrellacampaign@gmail.com");
 
