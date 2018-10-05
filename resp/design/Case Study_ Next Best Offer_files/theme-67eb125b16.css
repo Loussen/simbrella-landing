@@ -3443,8 +3443,7 @@ section.text-right > .container:last-child > .row:only-child > div[class*='col-'
 /**! 37. Spacing **/
 section,
 footer {
-  /*padding-top: 7.42857143em;*/
-  padding-top: 3.42857143em;
+  padding-top: 7.42857143em;
   padding-bottom: 7.42857143em;
 }
 section.space--xxs,
@@ -4741,7 +4740,7 @@ section.parallax .row .background-image-holder {
   font-family: Open Sans, 'Roboto', 'Helvetica', Sans-Serif;
 }
 .bar .logo {
-  /*max-height: 23px;*/
+  max-height: 23px;
   max-width: none;
 }
 .menu-horizontal > li > a,
@@ -4784,7 +4783,7 @@ section.parallax .row .background-image-holder {
 .bar-1 .menu-horizontal > li > a {
   font-size: 0.857142857142857em;
   line-height: 2.166666666666667em;
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
   font-weight: 600;
   letter-spacing: .5px;
 }
